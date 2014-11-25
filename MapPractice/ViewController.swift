@@ -34,7 +34,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         var latitudeDelta: CLLocationDegrees = 0.01
         var longtitudeDelta: CLLocationDegrees = 0.01
         
-        var mapSpan:MKCoordinateSpan = MKCoordinateSpanMake(latitude, longtitude)
+        var mapSpan:MKCoordinateSpan = MKCoordinateSpanMake(latitudeDelta, longtitudeDelta)
         
         var myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longtitude)
         
